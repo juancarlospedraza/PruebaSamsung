@@ -29,7 +29,7 @@ namespace SiemensS7Communication
                     int startByte = 0; // Start byte in the DB
                     byte valueToWrite = 1; // Value to write
 
-                    // Write the value to the PLC
+                    // Write the value to the PLC prueba comentarios 
                     plc.Write(DataType.DataBlock, dbNumber, startByte, valueToWrite);
 
                     Console.WriteLine($"Successfully wrote value {valueToWrite} to DB{dbNumber}.DBB{startByte}.");
