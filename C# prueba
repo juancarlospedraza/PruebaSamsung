@@ -1,0 +1,8 @@
+Ejemplo simplificado: 
+Copiar código 
+DEF Inspeccion_Alcalde( ) 
+; Aquí van instrucciones KRL 
+PTP XPI 
+LIN XP2 
+PosActual = $POS ACT ; Guardar la posición actual 
+END 
